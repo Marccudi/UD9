@@ -1,3 +1,4 @@
+package EJ2;
 
 public interface Entregable {
 

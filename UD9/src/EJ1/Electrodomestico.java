@@ -1,3 +1,4 @@
+package EJ1;
 
 public class Electrodomestico {
 	protected double precioBase;

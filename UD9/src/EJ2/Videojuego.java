@@ -1,3 +1,4 @@
+package EJ2;
 
 public class Videojuego implements Entregable{
 	private String titulo="";

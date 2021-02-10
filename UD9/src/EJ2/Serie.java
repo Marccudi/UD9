@@ -1,3 +1,4 @@
+package EJ2;
 
 public class Serie  implements Entregable{
 	private String titulo="";

@@ -1,3 +1,4 @@
+package EJ1;
 
 public class Television extends Electrodomestico{
 	private double resolucion=20.0;

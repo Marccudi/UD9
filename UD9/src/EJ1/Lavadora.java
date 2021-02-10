@@ -1,3 +1,4 @@
+package EJ1;
 
 public class Lavadora extends Electrodomestico{
 	protected double carga=5.0;

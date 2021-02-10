@@ -1,3 +1,4 @@
+package EJ4;
 
 public class UD9Ej4 {
 	public static void main(String[] args) {
