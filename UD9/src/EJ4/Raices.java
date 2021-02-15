@@ -6,7 +6,7 @@ public class Raices {
 	private double c;
 	
 	public Raices(double a, double b, double c) {
-		super();
+		
 		this.a = a;
 		this.b = b;
 		this.c = c;
@@ -19,7 +19,7 @@ public class Raices {
 	
 	public double obtenerRaiz() {
 		double v= Math.sqrt(getDiscriminante());
-		return v;		
+		return v;	
 	}
 
 	//dicriminante es lo que hay dentro de la raiz quadrada
@@ -50,50 +50,26 @@ public class Raices {
 	 
 	//metodo de los calculos finales y mostrar resultados
 	public void calcular() {
-		
+		//ejecutamos la formula
 		double v= obtenerRaices();
 		double res1= (-b+v)/(2*a);
 		double res2= (-b-v)/(2*a);
 		
 		
-		
+		//solo 1 resultado
 		if (tieneRaiz()) {
 			System.out.println(res1);
 		}
-		
+		//2 resultados
 		if (tieneRaices()) {
 			System.out.println(res1);
 			System.out.println(res2);
 		}
-		
+		//ningun resultado
 		if (getDiscriminante()<0) {
 			System.out.println("La equacion no tiene solucion");
 		}
 		
-		
-		
-		
-		
-		
-		
-		
-//		if (Double.isNaN(res1) && Double.isNaN(res2)) {
-//			System.out.println("La equacion no tiene solucion");
-//		}else if (Double.isNaN(res1) || Double.isNaN(res2)) {
-//			if (Double.isNaN(res1)) {
-//				System.out.println("Resultado 2: "+res2);
-//			}else {
-//				System.out.println("Resultado 1: "+res1);
-//			}
-//		}
-//		if (!Double.isNaN(res1) && !Double.isNaN(res2)) {
-//			if (res1==res2) {
-//				System.out.println("Resultado = "+res1);
-//			}else {
-//				System.out.println("Resultado 1: "+res1);
-//				System.out.println("Resultado 2: "+res2);
-//			}
-//		}
 	}
 	
 }
